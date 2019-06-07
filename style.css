@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(185, 184, 184);
+}
+.hr{
+    padding: 1px;
+    background: orangered;
+    width: 100%;
+}
+#head{
+    font-size: 40px;
+    color: #555;
+    border-bottom: 1px solid #555;
+    text-align: center;
+    padding: 30px;
+}
+.spinner-wrap{
+    margin: 100px auto;
+    height: 700px;
+    width: 1000px;
+    border: 4px solid rgb(238, 108, 108);
+    border-radius: 12px;
+    background: rgb(107, 104, 104);
+}
+.spinner-wrap h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 1px dashed rgb(134, 129, 129);
+}
+
+.spinner-wrap h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(61, 58, 58);
+    border-bottom: 1px solid rgb(58, 55, 55);
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-start, .btn-stop{
+    width: 140px;
+    margin-top: 10px;
+    background: rgb(80, 76, 76);
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 200px;
+    color: aliceblue;
+    border-radius: 5px;
+    border:2px solid orangered;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    margin-top: 30px
+}
+.btn-start:hover,.btn-stop:hover{
+    background: rgb(61, 59, 59);
+}
+
+/*------------ jquery --------------*/
+
+
+.spinner-wrap-jq{
+    margin: 100px auto;
+    height: 700px;
+    width: 1000px;
+    border: 4px solid rgb(238, 108, 108);
+    border-radius: 12px;
+    background: rgb(107, 104, 104);
+}
+.spinner-wrap-jq h1{
+    padding: 30px;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 1px dashed rgb(134, 129, 129);
+}
+.spinner-wrap-jq h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(61, 58, 58);
+    border-bottom: 1px solid rgb(58, 55, 55);
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-start-jq, .btn-stop-jq{
+    width: 140px;
+    margin-top: 10px;
+    background: rgb(80, 76, 76);
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 200px;
+    color: aliceblue;
+    border-radius: 5px;
+    border:2px solid orangered;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    margin-top: 30px
+}
+.btn-start-jq:hover,.btn-stop-jq:hover{
+    background: rgb(61, 59, 59);
+}
